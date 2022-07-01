@@ -1,0 +1,50 @@
+GET https://jsonplaceholder.typicode.com/users
+Content-Type: application/xml
+###
+POST https://api-nodejs-todolist.herokuapp.com/user/register
+Content-Type: application/json
+
+{
+	"name": "Tan Dep Trai",
+	"email": "tandeptrai@gmail.com",
+	"password": "123456789",
+	"age": 20
+}
+###
+POST https://api-nodejs-todolist.herokuapp.com/user/login
+Content-Type: application/json
+
+{
+	"email": "muh.nurali43@gmail.com",
+	"password": "12345678"
+}
+### 
+GET https://62bd0f6ac5ad14c110b6be68.mockapi.io/todos
+Content-Type: application/json
+### 
+GET http://172.16.5.192:3001/todo
+Content-Type: application/json
+###
+POST http://172.16.5.192:3001/todo
+Content-Type: application/json
+
+{
+	"name": "Task 1",
+	"priority": "Low"
+}
+###
+POST http://172.16.5.192:3001/pokemon
+Content-Type: application/json
+
+{
+    "name":"raichu",
+    "url_avatar":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
+    "description":"manh me dang yeu vo cung luon"
+}
+
+###
+GET http://172.16.5.192:3001/pokemon
+Content-Type: application/json
+
+
+###

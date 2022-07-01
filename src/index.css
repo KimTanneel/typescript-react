@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.todo-page  {
+  width: 400px;
+  border-radius: 8px;
+  padding:20px;
+  box-shadow: 0 0 10px;
+  margin-right: 20px;
+}
+
+.poke-page {
+  width: 100%;
+  border-radius: 8px;
+  padding:20px;
+  box-shadow: 0 0 10px;
+  margin-right: 20px;
+}
+.header-title{
+  font-size: 28px;
+  font-weight: bold;text-align: center;
+}
+
+:root{
+  --clr-body-bg: #09162e;
+  --clr-loader-bg: #00aeff;
+}
+
+body {
+  background:var(--clr-body-bg);
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
